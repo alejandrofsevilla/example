@@ -1,5 +1,5 @@
 # example
-Example of C++ library using Boost.Asio and GoogleTest.
+C++ example library using Boost.Asio and GoogleTest.
 ## features
 - TCP Server and Client.
 ## requirements
