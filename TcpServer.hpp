@@ -1,5 +1,5 @@
-#ifndef NETWORKING_TCP_SERVER_HPP
-#define NETWORKING_TCP_SERVER_HPP
+#ifndef EXAMPLE_TCP_SERVER_HPP
+#define EXAMPLE_TCP_SERVER_HPP
 
 #include <boost/asio.hpp>
 #include <map>

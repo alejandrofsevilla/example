@@ -1,5 +1,5 @@
-#ifndef NETWORKING_TESTS_TEST_HELPER_HPP
-#define NETWORKING_TESTS_TEST_HELPER_HPP
+#ifndef EXAMPLE_TESTS_TEST_HELPER_HPP
+#define EXAMPLE_TESTS_TEST_HELPER_HPP
 
 namespace example::tests {
 inline std::string generateRandomString(size_t size) {

@@ -1,5 +1,5 @@
-#ifndef NETWORKING_TCP_CLIENT_HPP
-#define NETWORKING_TCP_CLIENT_HPP
+#ifndef EXAMPLE_TCP_CLIENT_HPP
+#define EXAMPLE_TCP_CLIENT_HPP
 
 #include <boost/asio.hpp>
 #include <memory>
@@ -19,7 +19,6 @@ class TcpClient : private TcpConnection::Observer {
   struct Observer {
     /**
      * virtual function called by TcpClient after connection success.
-     *
      */
     virtual void onConnected();
     /**
@@ -31,7 +30,6 @@ class TcpClient : private TcpConnection::Observer {
     /**
      * virtual function called by TcpClient after connection is closed or
      * after an attempted connection fails.
-     *
      */
     virtual void onDisconnected();
   };
@@ -57,7 +55,6 @@ class TcpClient : private TcpConnection::Observer {
   void send(const std::string &message);
   /**
    * Closes connection.
-   *
    */
   void disconnect();
 

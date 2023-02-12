@@ -1,5 +1,5 @@
-#ifndef NETWORKING_TCP_CONNECTION_HPP
-#define NETWORKING_TCP_CONNECTION_HPP
+#ifndef EXAMPLE_TCP_CONNECTION_HPP
+#define EXAMPLE_TCP_CONNECTION_HPP
 
 #include <boost/asio.hpp>
 #include <mutex>
@@ -46,7 +46,6 @@ class TcpConnection : public std::enable_shared_from_this<TcpConnection> {
    * sends string message to peer connected to socket.
    *
    * @param message to send.
-   *
    */
   void send(const std::string &message);
   /**
