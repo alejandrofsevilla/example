@@ -8,8 +8,8 @@
 
 namespace example {
 /**
- * TcpClient class allows to connect to specified endpoint, and use associated
- * connection to send and receive string messages.
+ * TcpClient class allows to connect to specified TCP endpoint, and use
+ * associated connection to send and receive string messages.
  */
 class TcpClient : private TcpConnection::Observer {
  public:

@@ -8,7 +8,7 @@
 
 namespace example {
 /**
- * TcpServer class allows to accept connections at any interface,
+ * TcpServer class allows to accept TCP connections at any network interface,
  * with specified protocol, and specified port, and use associated connections
  * to send and receive string messages.
  */
